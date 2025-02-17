@@ -154,7 +154,7 @@ let matrix = [
     [1, 0, 1, 2],
     [2, 1, 0, 1]
 ];
-matrix.forEach(row => document.write(<p>${row.join(" ")}</p>));
+matrix.forEach(row => document.write(<p> ${row.join(" ")}</p>));
 
 
 
